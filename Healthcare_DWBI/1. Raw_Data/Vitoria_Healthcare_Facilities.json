@@ -1,0 +1,709 @@
+{
+ "displayFieldName": "codGeo",
+ "fieldAliases": {
+  "nomeUnidade": "Nome",
+  "bairro": "Bairro",
+  "tipo": "Tipo",
+  "natureza": "Natureza",
+  "codBairro": "codbairro",
+  "CNES": "CNES"
+ },
+ "fields": [
+  {
+   "name": "nomeUnidade",
+   "type": "esriFieldTypeString",
+   "alias": "Nome",
+   "length": 100
+  },
+  {
+   "name": "bairro",
+   "type": "esriFieldTypeString",
+   "alias": "Bairro",
+   "length": 80
+  },
+  {
+   "name": "tipo",
+   "type": "esriFieldTypeString",
+   "alias": "Tipo",
+   "length": 100
+  },
+  {
+   "name": "natureza",
+   "type": "esriFieldTypeString",
+   "alias": "Natureza",
+   "length": 15
+  },
+  {
+   "name": "codBairro",
+   "type": "esriFieldTypeInteger",
+   "alias": "codbairro"
+  },
+  {
+   "name": "CNES",
+   "type": "esriFieldTypeInteger",
+   "alias": "CNES"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE -  ILHA DE SANTA MARIA - COVID-19",
+    "bairro": "ILHA DE SANTA MARIA",
+    "tipo": "UNIDADE BÁSICA DE SAÚDE (UBS)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 25,
+    "CNES": 12157
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "HOSPITAL CENTRAL",
+    "bairro": "CENTRO",
+    "tipo": "HOSPITAL",
+    "natureza": "ESTADUAL",
+    "codBairro": 11,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "HOSPITAL E MATERNIDADE SANTA PAULA",
+    "bairro": "JARDIM CAMBURI",
+    "tipo": "HOSPITAL",
+    "natureza": "PARTICULAR",
+    "codBairro": 31,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "HOSPITAL SANTA RITA DE CÁSSIA",
+    "bairro": "SANTA CECÍLIA",
+    "tipo": "HOSPITAL",
+    "natureza": "PARTICULAR",
+    "codBairro": 59,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE SÃO PEDRO V - CONQUISTA/NOVA PALESTINA - MARIA LEDA SANTOS",
+    "bairro": "CONQUISTA",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 77,
+    "CNES": 12254
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAUDE - SANTA MARTHA - BENEDITO GOMES DA SILVA",
+    "bairro": "SANTA MARTHA",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 63,
+    "CNES": 3925757
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - SANTO ANDRÉ",
+    "bairro": "SANTO ANDRÉ",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 66,
+    "CNES": 12149
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "PRONTO ATENDIMENTO DE SÃO PEDRO",
+    "bairro": "SÃO JOSÉ",
+    "tipo": "PRONTO ATENDIMENTO - PA",
+    "natureza": "MUNICIPAL",
+    "codBairro": 70,
+    "CNES": 11835
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - DO QUADRO - AVELINA MARIA LACERDA GONÇALVES",
+    "bairro": "DO QUADRO",
+    "tipo": "ESTRATÉGIA AGENTE COMUNITÁRIO DE SAÚDE (EACS)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 53,
+    "CNES": 11975
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CENTRO DE ATENÇÃO PSICOSSOCIAL DA ILHA DE SANTA MARIA (CAPS II)",
+    "bairro": "ILHA DE SANTA MARIA",
+    "tipo": "CENTRO DE ATENÇÃO PSICOSSOCIAL",
+    "natureza": "MUNICIPAL",
+    "codBairro": 25,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - ESTRELINHA",
+    "bairro": "ESTRELINHA",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 15,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - ILHA DAS CAIEIRAS - VEREADOR NENEL MIRANDA",
+    "bairro": "SÃO PEDRO",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 71,
+    "CNES": 12076
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "LABORATÓRIO CENTRAL MUNICIPAL",
+    "bairro": "SANTA LÚCIA",
+    "tipo": "LABORATÓRIO",
+    "natureza": "MUNICIPAL",
+    "codBairro": 61,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CASA ROSA",
+    "bairro": "ILHA DE SANTA MARIA",
+    "tipo": "CENTRO DE REFERÊNCIA DE ATENDIMENTO ÀS VÍTIMAS DE VIOLÊNCIA",
+    "natureza": "MUNICIPAL",
+    "codBairro": 25,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CENTRO DE ATENÇÃO PSICOSSOCIAL INFANTO JUVENIL - CAPSI",
+    "bairro": "BENTO FERREIRA",
+    "tipo": "CENTRO DE ATENÇÃO PSICOSSOCIAL INFANTIL",
+    "natureza": "MUNICIPAL",
+    "codBairro": 7,
+    "CNES": 5526175
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CENTRAL DE TRANSPORTE SANITÁRIO",
+    "bairro": "FORTE SÃO JOÃO",
+    "tipo": "CENTRAL DE AMBULÂNCIA",
+    "natureza": "MUNICIPAL",
+    "codBairro": 16,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CASA DE ACOLHIDA TRANSITÓRIA",
+    "bairro": "ILHA DE SANTA MARIA",
+    "tipo": "CENTRO DE PREVENÇÃO E TRATAMENTO DE TOXICOMÂNOS - CPTT/CAPS-AD3",
+    "natureza": "MUNICIPAL",
+    "codBairro": 25,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CENTRO DE REFERÊNCIA DE ATENDIMENTO AO IDOSO (CRAI)",
+    "bairro": "ILHA DE SANTA MARIA",
+    "tipo": "CRAI - CENTRO DE REFERÊNCIA DE ATENDIMENTO AO IDOSO",
+    "natureza": "MUNICIPAL",
+    "codBairro": 25,
+    "CNES": 11983
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - SÃO CRISTOVÃO",
+    "bairro": "TABUAZEIRO",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 74,
+    "CNES": 7145721
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CENTRO MUNICIPAL DE ESPECIALIDADES SÃO PEDRO (CMESP)",
+    "bairro": "SÃO JOSÉ",
+    "tipo": "CENTRO MUNCIPAL DE ESPECIALIDADES - CME",
+    "natureza": "MUNICIPAL",
+    "codBairro": 70,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CENTRO DE ESPECIALIDADES ODONTOLÓGICAS - SÃO PEDRO (SÃO JOSÉ)",
+    "bairro": "SÃO JOSÉ",
+    "tipo": "CENTRO DE ESPECIALIDADE ODONTOLÓGICA - CEO",
+    "natureza": "MUNICIPAL",
+    "codBairro": 70,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CENTRO DE ATENÇÃO PSICOSSOCIAL SÃO PEDRO (CAPS SP III)",
+    "bairro": "SÃO JOSÉ",
+    "tipo": "CENTRO DE ATENÇÃO PSICOSSOCIAL",
+    "natureza": "MUNICIPAL",
+    "codBairro": 70,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "FARMÁCIA CIDADÃ",
+    "bairro": "CENTRO",
+    "tipo": "FARMÁCIA CIDADÃ",
+    "natureza": "MUNICIPAL",
+    "codBairro": 11,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - ITARARÉ - DILSON DOS SANTOS LOUREIRO",
+    "bairro": "ITARARÉ",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 29,
+    "CNES": 7468466
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "MATERNIDADE SANTA ÚRSULA",
+    "bairro": "MATA DA PRAIA",
+    "tipo": "HOSPITAL",
+    "natureza": "PARTICULAR",
+    "codBairro": 39,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "Santa Úrsula Pediatria",
+    "bairro": "MATA DA PRAIA",
+    "tipo": "CLÍNICA",
+    "natureza": "PARTICULAR",
+    "codBairro": 39,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "HOSPITAL PRAIA DO CANTO",
+    "bairro": "PRAIA DO SUÁ",
+    "tipo": "HOSPITAL",
+    "natureza": "PARTICULAR",
+    "codBairro": 82,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - RESISTÊNCIA",
+    "bairro": "RESISTÊNCIA",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 56,
+    "CNES": 2630001
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - DA PENHA - DR. GILSON SANTOS",
+    "bairro": "DA PENHA",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 49,
+    "CNES": 12114
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "ESCOLA TÉCNICA E FORMAÇÃO PROFISSIONAL DE SAÚDE",
+    "bairro": "ILHA DE SANTA MARIA",
+    "tipo": "ESCOLA TÉCNICA E FORMAÇÃO PROFISSIONAL DE SAÚDE",
+    "natureza": "MUNICIPAL",
+    "codBairro": 25,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "HOSPITAL SANTA CASA DE MISERICÓRDIA DE VITÓRIA",
+    "bairro": "PARQUE MOSCOSO",
+    "tipo": "HOSPITAL",
+    "natureza": "PARTICULAR",
+    "codBairro": 48,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "HOSPITAL UNIVERSITÁRIO CASSIANO ANTÔNIO DE MORAES - HUCAM",
+    "bairro": "SANTA CECÍLIA",
+    "tipo": "HOSPITAL",
+    "natureza": "FEDERAL",
+    "codBairro": 59,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "HOSPITAL INFANTIL NOSSA SENHORA DA GLÓRIA",
+    "bairro": "SANTA LÚCIA",
+    "tipo": "HOSPITAL",
+    "natureza": "ESTADUAL",
+    "codBairro": 61,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "HOSPITAL SÃO LUCAS",
+    "bairro": "FORTE SÃO JOÃO",
+    "tipo": "HOSPITAL",
+    "natureza": "ESTADUAL",
+    "codBairro": 16,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "SAMU SERVIÇO DE ATENDIMENTO MÓVEL DE URGÊNCIA",
+    "bairro": "FORTE SÃO JOÃO",
+    "tipo": "HOSPITAL",
+    "natureza": "ESTADUAL",
+    "codBairro": 16,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "HOSPITAL PEDIÁTRICO DE VITÓRIA",
+    "bairro": "SANTA LÚCIA",
+    "tipo": "HOSPITAL",
+    "natureza": "PARTICULAR",
+    "codBairro": 61,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "SOCOR - HOSPITAL DO CORAÇÃO",
+    "bairro": "SANTA LÚCIA",
+    "tipo": "HOSPITAL",
+    "natureza": "PARTICULAR",
+    "codBairro": 61,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "PRONTO ATENDIMENTO MUNICIPAL 24H",
+    "bairro": "PRAIA DO SUÁ",
+    "tipo": "PRONTO ATENDIMENTO - PA",
+    "natureza": "MUNICIPAL",
+    "codBairro": 82,
+    "CNES": 2675110
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - SANTA LUÍZA - DR. JOSÉ MOYSÉS",
+    "bairro": "SANTA LUÍZA",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 62,
+    "CNES": 5032644
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "AMBULATÓRIO SAÚDE MENTAL",
+    "bairro": "CENTRO",
+    "tipo": "AMBULATÓRIO",
+    "natureza": "ESTADUAL",
+    "codBairro": 11,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CENTRO DE ATENÇÃO PSICOSSOCIAL ÁLCOOL E DROGAS (CAPS-AD)",
+    "bairro": "ILHA DE SANTA MARIA",
+    "tipo": "CENTRO DE ATENÇÃO PSICOSSOCIAL ÁLCOOL E DROGAS (CAPS-AD)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 25,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CIAS UNIMED VITÓRIA",
+    "bairro": "ITARARÉ",
+    "tipo": "HOSPITAL",
+    "natureza": "PARTICULAR",
+    "codBairro": 29,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CENTRO DE REFERÊNCIA EM INFECÇÕES SEXUALMENTE TRANSMISSÍVEIS",
+    "bairro": "CENTRO",
+    "tipo": "CENTRO DE REFERÊNCIA EM INFECÇÕES SEXUALMENTE TRANSMISSÍVEIS",
+    "natureza": "MUNICIPAL",
+    "codBairro": 11,
+    "CNES": 12084
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - JABOUR - DR. CARLITO VON SHILGEN",
+    "bairro": "JABOUR",
+    "tipo": "UNIDADE BÁSICA DE SAÚDE (UBS)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 30,
+    "CNES": 11924
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - FONTE GRANDE - DR. AFFONSO SCHWAB",
+    "bairro": "CENTRO",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 11,
+    "CNES": 12173
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - CENTRO - GENY GRIJÓ",
+    "bairro": "CENTRO",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 11,
+    "CNES": 12262
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - JESUS DE NAZARÉ - DR. LUIZ CASTELLAR DA SILVA",
+    "bairro": "JESUS DE NAZARETH",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 44,
+    "CNES": 11797
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE CONSOLAÇÃO - MARIA RANGEL DOS PASSOS",
+    "bairro": "GURIGICA",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 20,
+    "CNES": 12165
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - BONFIM - THOMAZ TOMMASSI",
+    "bairro": "BONFIM",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 9,
+    "CNES": 28185
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - PRAIA DO SUÁ - LUCILO BORGES SANT’ANNA",
+    "bairro": "ENSEADA DO SUÁ",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 14,
+    "CNES": 28177
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - JARDIM DA PENHA - OTAVIANO RODRIGUES DE CARVALHO",
+    "bairro": "JARDIM DA PENHA",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 32,
+    "CNES": 11878
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - JARDIM CAMBURI - RAUL OLIVEIRA NUNES",
+    "bairro": "JARDIM CAMBURI",
+    "tipo": "UNIDADE BÁSICA DE SAÚDE (UBS)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 31,
+    "CNES": 12033
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - MARIA ORTIZ",
+    "bairro": "MARIA ORTIZ",
+    "tipo": "UNIDADE BÁSICA DE SAÚDE (UBS)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 37,
+    "CNES": 11908
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - FORTE SÃO JOÃO - DR. BOLIVAR DE ABREU",
+    "bairro": "FORTE SÃO JOÃO",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 16,
+    "CNES": 11827
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - REPÚBLICA - DR. JOLINDO MARTINS",
+    "bairro": "REPÚBLICA",
+    "tipo": "ESTRATÉGIA AGENTE COMUNITÁRIO DE SAÚDE (EACS)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 55,
+    "CNES": 12122
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - SANTO ANTÔNIO - JÚLIO CÉZAR PRATTES MATTOS",
+    "bairro": "SANTA TEREZA",
+    "tipo": "UNIDADE BÁSICA DE SAÚDE (UBS)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 64,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - ILHA DO PRÍNCIPE - DR. MANOEL ROCHA COUTINHO",
+    "bairro": "ILHA DO PRÍNCIPE",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 27,
+    "CNES": 11916
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE ALAGOANO - ARIOVALDO FAVALESSA",
+    "bairro": "CARATOÍRA",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 10,
+    "CNES": 12068
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - MARUÍPE",
+    "bairro": "MARUÍPE",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 38,
+    "CNES": 11959
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "UNIDADE DE SAÚDE - ANDORINHAS - DR. LUIS CLAUDIO PASSOS",
+    "bairro": "ANDORINHAS",
+    "tipo": "ESTRATÉGIA SAUDE DA FAMÍLIA (ESF)",
+    "natureza": "MUNICIPAL",
+    "codBairro": 3,
+    "CNES": 12092
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "HOSPITAL DA POLÍCIA MILITAR",
+    "bairro": "BENTO FERREIRA",
+    "tipo": "HOSPITAL",
+    "natureza": "ESTADUAL",
+    "codBairro": 7,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "MATERNIDADE PROMATRE",
+    "bairro": "FORTE SÃO JOÃO",
+    "tipo": "HOSPITAL",
+    "natureza": "PARTICULAR",
+    "codBairro": 16,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CENTRO DE VIGILÂNCIA EM SAÚDE AMBIENTAL (CVSA)",
+    "bairro": "RESISTÊNCIA",
+    "tipo": "VIGILÂNCIA SANITÁRIA",
+    "natureza": "MUNICIPAL",
+    "codBairro": 56,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "HOSPITAL DA ASSOCIAÇÃO DOS FUNCIONÁRIOS PÚBLICOS DO ESTADO DO ESPÍRITO SANTO",
+    "bairro": "CENTRO",
+    "tipo": "HOSPITAL",
+    "natureza": "ESTADUAL",
+    "codBairro": 11,
+    "CNES": null
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CENTRO MUNICIPAL DE ESPECIALIDADES DE VITÓRIA (CMEV)",
+    "bairro": "MÁRIO CYPRESTE",
+    "tipo": "CENTRO MUNCIPAL DE ESPECIALIDADES - CME",
+    "natureza": "MUNICIPAL",
+    "codBairro": 85,
+    "CNES": 3038467
+   }
+  },
+  {
+   "attributes": {
+    "nomeUnidade": "CENTRO DE ESPECIALIDADES ODONTOLÓGICAS - CENTRO",
+    "bairro": "MÁRIO CYPRESTE",
+    "tipo": "CENTRO DE ESPECIALIDADE ODONTOLÓGICA - CEO",
+    "natureza": "MUNICIPAL",
+    "codBairro": 85,
+    "CNES": null
+   }
+  }
+ ]
+}

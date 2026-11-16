@@ -1,0 +1,197 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="586dd352-016d-4114-bff4-3d96e54098ba" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Health Profile</ID>
+  <Name>Dim Health Profile</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-403" scrolltop="-6350" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="4149" y="15727" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimHealthProfile" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3302" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e60c0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimHealthProfile" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-403</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6350</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0574cc2c-1ef4-4b86-96b8-5ddbbab9cacf">
+    <DataSourceViewID>Healthcare_DSV</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="3a69486c-727c-4f93-870a-4b993fdc0a6e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="9a6750bf-5893-476f-b069-d61dd81c3b2d">
+      <ID>Health Profile Key</ID>
+      <Name>Health Profile Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="931aa8fb-852c-4600-9fc8-c845c4d11ca7">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="105115ff-021a-483b-a23d-74b463c01126">
+            <TableID>dbo_DimHealthProfile</TableID>
+            <ColumnID>HealthProfileKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="814c8996-2100-415d-95e1-e635768a4ebe">
+          <AttributeID>Scholarship</AttributeID>
+          <Name>Scholarship</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="536d7590-a922-42e4-9016-cb04dce04a51">
+          <AttributeID>Hypertension</AttributeID>
+          <Name>Hypertension</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8100870a-ebb5-4d41-8fc5-6d5f2a57fd05">
+          <AttributeID>Diabetes</AttributeID>
+          <Name>Diabetes</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5224ed84-2875-4894-a40a-82a9133be32f">
+          <AttributeID>Alcoholism</AttributeID>
+          <Name>Alcoholism</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c098a99d-e8ef-4b7f-b3bb-aa72a6de60e5">
+          <AttributeID>Handicap</AttributeID>
+          <Name>Handicap</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="025be644-948e-4759-b2a9-5ab191a902b8">
+      <ID>Scholarship</ID>
+      <Name>Scholarship</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e3db735f-5e75-423c-b37a-e9f818a97faa">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="317c9cd5-bbb3-4c84-a382-06786098e83e">
+            <TableID>dbo_DimHealthProfile</TableID>
+            <ColumnID>Scholarship</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dc2307ed-f43b-41ba-b8c7-1b0cca26858c">
+      <ID>Hypertension</ID>
+      <Name>Hypertension</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="392d4d88-513e-4e6a-ae2b-3a58a67e6dcc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1da828ab-2e5b-456a-9b59-59ecd6a80c92">
+            <TableID>dbo_DimHealthProfile</TableID>
+            <ColumnID>Hypertension</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6ce5590a-3e29-4a15-a7e1-041f9733f54a">
+      <ID>Diabetes</ID>
+      <Name>Diabetes</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="de9198d2-2fbd-458f-8b15-149433fec889">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f81cd47-a1f2-4d98-871c-09ece3abf947">
+            <TableID>dbo_DimHealthProfile</TableID>
+            <ColumnID>Diabetes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="68e5b4b7-b1c5-4054-bb90-47d29a7c3e60">
+      <ID>Alcoholism</ID>
+      <Name>Alcoholism</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="77b840d1-d431-4825-8d99-a65bf793a961">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22482bd2-023e-4e88-ba25-b615d23f00a3">
+            <TableID>dbo_DimHealthProfile</TableID>
+            <ColumnID>Alcoholism</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9ca8aa25-dbd1-44d1-ae26-227fb94c13ae">
+      <ID>Handicap</ID>
+      <Name>Handicap</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="57d4083a-c953-4926-b40a-909b5464d8db">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8650d58-2bb9-40c5-8b8d-37323ac65009">
+            <TableID>dbo_DimHealthProfile</TableID>
+            <ColumnID>Handicap</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

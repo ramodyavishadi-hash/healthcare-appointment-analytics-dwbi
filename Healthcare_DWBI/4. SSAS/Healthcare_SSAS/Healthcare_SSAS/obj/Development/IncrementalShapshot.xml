@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Healthcare_SSAS</Database>
+    <Server>localhost\SSAS_HEALTHCARE</Server>
+    <ConnectionString>Data Source=localhost\SSAS_HEALTHCARE;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>gp/B6cTRB6jWkM8fb1G1wofo+Q4=10/2/2026 2:02:14 PM10/2/2026 2:02:14 PM</TimeStamp>
+        <ID>
+          <String>Healthcare_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>oM+tU/vmzZO4xuzOgMwBSuBa9/A=10/3/2026 4:29:39 PM10/2/2026 2:06:28 PM</TimeStamp>
+        <ID>
+          <String>Healthcare_DSV</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZYYYjhH+9Kf58ovypsNRO6JtG0A=10/3/2026 5:25:57 PM10/2/2026 2:12:53 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0ZQ8fQ1P+GN/IVf1cp4xaQSfeT0=10/2/2026 2:40:07 PM10/2/2026 2:12:53 PM</TimeStamp>
+        <ID>
+          <String>Dim Health Profile</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HI2mJoJCKxiFRfkdHKYojl0bDAw=10/2/2026 2:36:11 PM10/2/2026 2:12:53 PM</TimeStamp>
+        <ID>
+          <String>Dim Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>U6kT1QPf5XrkuYMGghk7NG0gWwk=10/2/2026 2:38:23 PM10/2/2026 2:12:53 PM</TimeStamp>
+        <ID>
+          <String>Dim Patient</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VnWfqv8yO6OjvZ4u9kqEN1A5WJ4=10/2/2026 2:47:38 PM10/2/2026 2:18:00 PM</TimeStamp>
+        <ID>
+          <String>Dim Health Facility</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nvB+LMDjegMqb/FukxAd/5Lf+3g=10/2/2026 9:33:02 PM10/2/2026 9:25:40 PM</TimeStamp>
+        <ID>
+          <String>Dim SMS Received</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>lAuS9AaI4KD7hdWpfqAPFdiEIGs=10/3/2026 12:28:23 AM10/2/2026 2:12:53 PMIevVZvHMTu8FJe3ockM4H0o0NIU=10/2/2026 5:47:28 PM10/2/2026 2:12:53 PM</TimeStamp>
+        <ID>
+          <String>Healthcare_DSV</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>u5H94hKKhUU/P0akwAl8mq19ByQ=10/2/2026 1:56:04 PM10/2/2026 1:56:03 PM</TimeStamp>
+      <ID>
+        <String>Healthcare_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-10-03T11:57:00.66Z</LastDeployed>
+</DeploymentSnapshot>
